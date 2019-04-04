@@ -1,13 +1,32 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-size: 10px;
+
+  background-color: #A8DDF1;
+  color: #0B5554;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.);
   float: left;
   position: fixed;
   width: 100%;
+}
+
+h1 {
+  font-family: Georgia;
+  font-size: 5.0em;
+  width: 90%;
+}
+
+h3 {
+  font-size: 2.5em;
+  width: 90%;
+}
+
+p {
+  font-family: arial;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 .logo {
@@ -20,7 +39,7 @@ nav {
 }
 
 .medium-pic {
-  width: 70%;
+  width: 90%;
 }
 
 .left, .right {
@@ -46,7 +65,24 @@ article {
   padding-top: 100px;
 }
 
+.story-text, .author {
+  width: 90%;
+}
+
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+a:link, a:visited {
+  background-color: #0B5554;
+  color: #A8DDF1;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
 }
