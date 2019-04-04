@@ -1,12 +1,11 @@
 body {
   font-size: 10px;
-
   background-color: #A8DDF1;
   color: #0B5554;
 }
 
 nav {
-  background-color: rgba(0,0,0,.);
+  background-color: rgba(0,0,0,.5);
   float: left;
   position: fixed;
   width: 100%;
