@@ -1,5 +1,5 @@
 body {
-  font-size: 10px;
+  font-size: 16px;
   background-color: #A8DDF1;
   color: #0B5554;
 }
@@ -24,7 +24,7 @@ h3 {
 
 p {
   font-family: arial;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1.5;
 }
 
@@ -64,8 +64,19 @@ article {
   padding-top: 100px;
 }
 
-.story-text, .author {
+.author {
   width: 90%;
+  font-weight: bold;
+}
+
+.story-text {
+  width: 90%;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 1.875em;
+  display: block;
 }
 
 .container {
