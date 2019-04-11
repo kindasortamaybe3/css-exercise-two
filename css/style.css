@@ -1,11 +1,11 @@
 body {
   font-size: 16px;
-  background-color: #A8DDF1;
+  background-color: #D6EFFA;
   color: #0B5554;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #0B5554;
   float: left;
   position: fixed;
   width: 100%;
@@ -15,11 +15,15 @@ h1 {
   font-family: Georgia;
   font-size: 5.0em;
   width: 90%;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 h3 {
   font-size: 2.5em;
   width: 90%;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 p {
@@ -30,23 +34,27 @@ p {
 }
 
 .logo {
+  float:left;
   margin: 20px;
   width: 100px;
 }
 
-.large-pic {
+.figure {
   width: 100%;
 }
 
+/* image */
 .medium-pic {
   width: 90%;
 }
 
-.left, .right {
+/* image */
+.left {
   float: left;
   width: 50%;
 }
 
+/* menu */
 .right {
   float: right;
 }
@@ -61,13 +69,10 @@ li {
   padding: 30px;
 }
 
-article {
-  padding-top: 100px;
-}
-
 .author {
   width: 90%;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 .story-text {
@@ -83,11 +88,12 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+  padding-top: 100px;
 }
 
 a:link, a:visited {
   background-color: #0B5554;
-  color: #A8DDF1;
+  color: #D6EFFA;
   padding: 12px 20px;
   text-align: center;
   text-decoration: none;
@@ -95,5 +101,6 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  background-color: white;
+  background-color: #D6EFFA;
+  color: #0B5554;
 }
