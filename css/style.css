@@ -37,6 +37,12 @@ p {
   float:left;
   margin: 20px;
   width: 100px;
+  float:left;
+  position: absolute;
+  margin-left: 20px;
+  top: 30%;
+  transform: translateY(-50%);
+  width: 100px;
 }
 
 .figure {
@@ -69,7 +75,7 @@ li {
   padding: 30px;
 }
 
-.author {
+.author p {
   width: 90%;
   font-weight: bold;
   margin-top: 10px;
